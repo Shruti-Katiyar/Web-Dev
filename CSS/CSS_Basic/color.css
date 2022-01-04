@@ -1,0 +1,41 @@
+
+#div1{
+	height: 4rem;
+	/*200px;*/
+	/*75vh*/
+
+	width: 6rem;
+	/*200px;*/
+	/*100vw;*/
+    
+	background-color:blue;
+
+	/*background-color:#393a7b; hexadecimal m bhi likh skatay h*/
+	/*background-color: rgb(25,126,200);  /*rgb m bhi krskaty h*/
+	/*background-color: rgba(25,126,200,1); /*rgba bhi use krskaty h
+	                                         (red green blue)*/
+
+    /*background-color: hsl();
+     /* heu saturation and lightness
+     background-color: hsla();  a is alpha*/
+
+     /*    ADDIGN BOARDER TO AN ELEMENT  */
+     /*border-width: 6px;
+     border-width: 2px 4px 6px 8px; 4 sides ka diff boarder set krskaty h
+     border-style: solid;
+     background-color: orange;*/
+
+     border: 4px solid red; 
+     /*for rounded border */
+     border-radius: 4px;
+}
+
+
+     /*adding boarder to pargraph*/
+
+#sample{
+	/*border: 2px solid pink;*/
+	border-left: 4px solid green;
+}
+
+
