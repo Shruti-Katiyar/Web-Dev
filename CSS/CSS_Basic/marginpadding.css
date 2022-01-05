@@ -1,0 +1,36 @@
+
+html{
+	font-size:30px;
+}
+
+#outer-div1{
+	height: 200px;
+	width: 200px;
+	background-color:#393a7b;
+	/*margin: 4px;        /*it is same for all sides*/
+	/*margin: 4px 10px;     top-bottom:4px  horizontal-vertical:10px*/
+	/*margin:4px 6px 7px;   4px=top 6=left&right 7=bottom*/
+	/*margin: 4px 5px 7px px;  top right bottom left */
+	/*margin-top: 10px; /*this will only set topmargin*/
+	/*margin: auto /*it will place in center*/
+	margin-bottom: 40px;
+	padding: 20px;
+	padding: 20 px 40 px;
+	padding: 20px 40 px 50px 60px;
+
+	
+}
+
+#inner-div1{
+	height: 50%;
+	width: 50%;
+	background-color:cyan;
+}
+
+
+#outer-div2{
+	height: 200px;
+	width: 200px;
+	background-color:orange;
+}
+
