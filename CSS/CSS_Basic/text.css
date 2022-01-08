@@ -1,0 +1,23 @@
+
+#sample{
+	font-size: 20px;
+	color: blue;
+	/*font-weight: bold; normal or bolder bhi option hotay h*/
+     font-weight: 500; /*no bhi hotay h 100 to 900 [100 sabsay choat]*/
+
+     /* text-align: right; /*left justify align bhi hoaty h*/
+     /*text-align: left;*/
+     text-align: justify;
+
+     line-height: 40px; /*difference btw lines*/
+     word-spacing: 10px;
+
+     /*text-transform: uppercase; set all word in uppercase*/
+     /*text-transform: lowercase;*/
+     text-transform: capitalize;
+
+     text-decoration: underline; /*or bhi hotaya h*/
+
+   
+}
+
