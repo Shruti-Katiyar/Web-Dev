@@ -1,0 +1,39 @@
+/*color*/
+p{
+        color:blue;
+        font-size: 20px;
+
+}
+
+/* heading */
+h{
+    fornt-size: 50px;
+
+}
+
+/*uppercase m krnay k lie
+h4{
+    text-transform: uppercase;
+}
+*/
+
+/*ye text transform walla sabhi  h4 ading per apply hojata h
+  but agar kuch specific heading k liye krna ho then we use class */
+
+.uppercase{
+        text-transform: uppercase;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+#blog-desc{
+    color:#green;
+}
+
+#blog-title:hover{
+    color: orange;
+
+}
+
