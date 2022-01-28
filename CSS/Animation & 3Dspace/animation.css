@@ -1,0 +1,42 @@
+
+@keyframes changeShape{
+
+	/*from{
+		border-radius: 0%;
+	}
+	to{
+		border-radius: 50%;
+	}*/
+
+	0%{
+		border-radius: 0%;
+	}
+	24%{
+		border-radius: 10%;
+	}
+	50%{
+		border-radius: 20%;
+	}
+	50%{
+		border-radius: 50%;
+	}
+}
+
+
+#div{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	background: plum;
+	/*transition: 1s ease-in-out;*/
+	/*animation: changeShape 1s ease-in-out infinite alternate;*/
+    	animation: changeShape 1s ease-in-out 4 alternate;
+}
+
+
+
+
+
+
