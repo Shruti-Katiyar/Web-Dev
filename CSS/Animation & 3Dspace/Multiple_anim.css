@@ -1,0 +1,57 @@
+
+
+@keyframes changeShape{
+
+	0%{
+		border-radius: 0%;
+	}
+	24%{
+		border-radius: 10%;
+	}
+	50%{
+		border-radius: 20%;
+	}
+	50%{
+		border-radius: 50%;
+	}
+}
+
+
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes reducesize{
+	from{
+		height: 200px;
+		width: 200px;
+	}
+	to{
+		height: 100px;
+		width: 100px;
+	}
+}
+
+
+#div1{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	background: red;
+	
+    /*animation: changeShape 1s ease-in-out 4 alternate;
+    this is sort hand property */
+
+    animation-name:changeShape,rotate,reducesize ;
+    animation-duration: 0.9s,0.9s,0.9s;
+    animation-iteration-count: infinite,infinite,infinite;
+    animation-direction: alternate,alternate,alternate;
+
+}
