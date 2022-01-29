@@ -1,0 +1,26 @@
+#div{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	background: aquamarine;
+	/*transform: rotate(-120deg);anti-clockwise dir
+	transform: rotate(120deg);/*clock wise dir*/
+	/*transform: rotateXY(45deg);*/
+	/*transform: scale(1.6);*/
+	/*transform: scale(1.6 ,0.4);*/
+
+	/*transform: translate(10px);
+	transform: translate(100%,100%);
+	x ,y translate */
+
+	transition:1s ease-in-out;
+	/*tran beginning and end smooth is ease-in-out */
+    transition:height 1s ease-in-out 0.5;
+
+}
+
+#div:hover{
+	height: 400px;
+}
