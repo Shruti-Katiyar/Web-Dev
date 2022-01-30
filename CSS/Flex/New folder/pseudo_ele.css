@@ -1,0 +1,32 @@
+p::first-letter{ /*this will make first letter bigger */
+	/*first line can also be used*/
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+/*p::first-line{ 
+	/*first line can also be used*/
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}*/
+p{
+	background-color: lightgray;
+}
+
+p::before{
+	content: 'Before';
+	fornt-size: 1.4rem;
+	fornt-weight: bold;
+	text-transform: capitalize;
+}
+
+p::after{
+	content: 'after';
+	fornt-size: 1.4rem;
+	fornt-weight: bold;
+	text-transform: capitalize;
+}
